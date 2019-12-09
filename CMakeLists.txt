@@ -3,4 +3,6 @@ project(cpp_chess)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(cpp_chess library.cpp library.h)
+add_library(cpp_chess chess.cpp)
+
+add_executable(test tests.cpp)
